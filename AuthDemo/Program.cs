@@ -25,7 +25,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();//Test1
 
-app.UseAuthorization();
+app.UseAuthorization();//Test 2
 
 app.MapControllers();
 
