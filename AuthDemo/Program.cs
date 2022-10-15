@@ -23,7 +23,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();//Test1
+app.UseAuthentication();
 
 app.UseAuthorization();//Test 2
 
