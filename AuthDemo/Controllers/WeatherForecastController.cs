@@ -5,7 +5,7 @@ using System.Security.Claims;
 
 namespace AuthDemo.Controllers
 {
-    [Authorize]
+    [Authorize(Role = "Boss")]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
