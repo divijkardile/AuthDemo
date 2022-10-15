@@ -23,9 +23,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();//Test1
+app.UseAuthentication();
 
-app.UseAuthorization();
+app.UseAuthorization();//Test 2
 
 app.MapControllers();
 
